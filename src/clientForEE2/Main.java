@@ -27,7 +27,6 @@ class GetThread extends Thread {
 				Date date = new Date(System.currentTimeMillis());
 				DateFormat dateFormat = new SimpleDateFormat("yyyyMMddHHmmssSS");
 				timeStatus = dateFormat.format(date);
-
 				URL url = new URL("http://localhost:8080/"+  getList  +"?from=" +
 						                                           n +"&"+ "login="+login+"&"+"date="+ timeStatus);
 				HttpURLConnection http = (HttpURLConnection) url.openConnection();
