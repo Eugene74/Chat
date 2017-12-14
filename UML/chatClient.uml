@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="55.75" y="158.0">clientForEE2.GetThread</node>
+    <node x="190.83333333333334" y="158.0">clientForEE2.Chat</node>
+    <node x="283.83333333333337" y="158.0">clientForEE2.CheckRegistration</node>
+    <node x="190.125" y="279.0">clientForEE2.Main</node>
+    <node x="80.59166666666673" y="-77.0">clientForEE2.Message</node>
+    <node x="171.125" y="79.0">clientForEE2.CheckUsers</node>
+    <node x="-120.0" y="92.0">clientForEE2.MessageListXML</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="clientForEE2.Chat" target="clientForEE2.CheckUsers">
+      <point x="0.0" y="-14.5" />
+      <point x="227.33333333333334" y="133.0" />
+      <point x="225.625" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.MessageListXML" target="clientForEE2.Message">
+      <point x="-45.33333333333334" y="-14.5" />
+      <point x="-68.33333333333334" y="43.0" />
+      <point x="88.42500000000007" y="43.0" />
+      <point x="-39.16666666666666" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.GetThread" target="clientForEE2.MessageListXML">
+      <point x="-25.75" y="-14.5" />
+      <point x="81.5" y="133.0" />
+      <point x="-50.0" y="139.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.Main" target="clientForEE2.CheckRegistration">
+      <point x="30.0" y="-14.5" />
+      <point x="255.625" y="217.0" />
+      <point x="391.83333333333337" y="217.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.Chat" target="clientForEE2.Message">
+      <point x="24.333333333333343" y="-14.5" />
+      <point x="251.66666666666669" y="133.0" />
+      <point x="290.625" y="133.0" />
+      <point x="290.625" y="59.0" />
+      <point x="167.75833333333335" y="59.0" />
+      <point x="39.16666666666663" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.Main" target="clientForEE2.Chat">
+      <point x="0.0" y="-14.5" />
+      <point x="225.625" y="217.0" />
+      <point x="227.33333333333334" y="217.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.GetThread" target="clientForEE2.Message">
+      <point x="25.75" y="-14.5" />
+      <point x="133.0" y="133.0" />
+      <point x="146.5" y="133.0" />
+      <point x="146.5" y="59.0" />
+      <point x="136.42500000000004" y="59.0" />
+      <point x="7.833333333333314" y="14.5" />
+    </edge>
+    <edge source="clientForEE2.Main" target="clientForEE2.GetThread">
+      <point x="-15.0" y="-14.5" />
+      <point x="210.625" y="207.0" />
+      <point x="133.0" y="207.0" />
+      <point x="25.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="214.0" y="133.0" />
+  <SelectedNodes>
+    <node>clientForEE2.Main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
